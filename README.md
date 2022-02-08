@@ -24,7 +24,11 @@ Tras configurar homecontroller, xa temos a nosa web funcional e a podemos visita
 
 ## A web que temos
 
-A web empeza cun login que nos pide usuario e contrasinal. Se nos temos rexistrado previamente a través de public/register) poderemos entrar na páxina principal:
+A web empeza cun login que nos pide usuario e contrasinal. 
+
+![](img/captura6.png)
+
+Se nos temos rexistrado previamente a través de public/register) poderemos entrar na páxina principal:
 
 ![](img/captura2.png)
 
