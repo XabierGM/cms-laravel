@@ -15,15 +15,27 @@
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('category.create')" :active="request()->routeIs('dashboard')">
+                        {{ __('Crear Categoría') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('category.index')" :active="request()->routeIs('dashboard')">
+                        {{ __('Todas las categorías') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('post.create')" :active="request()->routeIs('dashboard')">
+                        {{ __('Crear Post') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('post.index')" :active="request()->routeIs('dashboard')">
+                        {{ __('Todos los posts') }}
+                    </x-nav-link>
                 </div>
             </div>
 
             <div></div>
             <div></div>
 
-            <div class="flex justify-self-end items-center">
+            <!-- <div class="flex justify-self-end items-center">
                 <a href="{{route('category.create')}}" class="flex mx-2 text-green-900 underline text-sm font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out">
-                    Creat Category
+                    Create Category
                 </a>
 
                 <a href="{{route('category.index')}}" class="flex text-green-900 underline text-sm font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out">
@@ -33,13 +45,13 @@
 
             <div class="flex justify-self-end items-center">
                 <a href="{{route('post.create')}}" class="flex mx-2 text-green-900 underline text-sm font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out">
-                    Creat Post
+                    Create Post
                 </a>
 
                 <a href="{{route('post.index')}}" class="flex text-green-900 underline text-sm font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out">
                     All Posts
                 </a>
-            </div>
+            </div> -->
 
             <!-- Settings Dropdown -->
             <div class="hidden sm:flex sm:items-center sm:ml-6 justify-self-end">
